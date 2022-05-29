@@ -7,6 +7,9 @@ while (fuel > 0) do
     turtle.select(2);
     local idx = turtle.getItemCount();
     while (idx > 0) do
+        turtle.dig();
+        turtle.digUp();
+        turtle.digDown();
         turtle.placeDown();
         turtle.forward();
         idx = turtle.getItemCount();
