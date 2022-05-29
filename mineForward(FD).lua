@@ -1,6 +1,7 @@
 while (true) do
     turtle.dig();
     turtle.digDown();
-    turtle.forward();
+    turtle.refuel();
     turtle.getFuelLevel();
+    turtle.forward();
 end
